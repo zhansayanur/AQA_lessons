@@ -5,17 +5,15 @@ public class CheckPositiveNegative {
     метод должен напечатать в консоль, положительное ли число передали или отрицательное.
     Замечание: ноль считаем положительным числом.
      */
-
-    public static void printPositiveNegative(int num) {
-        if (num >= 0) {
-            System.out.println("Число " + num + " является положительным.");
+    public static void printPositiveNegative(int a) {
+        if (a >= 0) {
+            System.out.println("Число " + a + " является положительным.");
         } else {
-            System.out.println("Число " + num + " является отрицательным.");
+            System.out.println("Число " + a + " является отрицательным.");
         }
     }
 
     public static void main(String[] args) {
         printPositiveNegative(-5);
     }
-
 }
