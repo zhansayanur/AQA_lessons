@@ -5,10 +5,10 @@ public class TypeString {
     метод должен отпечатать в консоль указанную строку, указанное количество раз;
     */
     public static void main(String[] args) {
-        printStringMultipleTimes("Hello, World!", 5);
+        printString("Hello, World!", 5);
     }
 
-    public static void printStringMultipleTimes(String str, int count) {
+    public static void printString(String str, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(str);
         }

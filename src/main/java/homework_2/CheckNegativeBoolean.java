@@ -6,12 +6,12 @@ public class CheckNegativeBoolean {
     положительное. Замечание: ноль считаем положительным числом.
     */
 
-    public static boolean isNegativeOrPositive(int a) {
+    public static boolean negativeOrPositive(int a) {
         return a < 0;
     }
 
     public static void main(String[] args) {
-        boolean result = isNegativeOrPositive(0);
+        boolean result = negativeOrPositive(0);
         System.out.println(result);
     }
 }
