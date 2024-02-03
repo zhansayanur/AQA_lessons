@@ -6,7 +6,7 @@ public class CheckSumInRange {
     в противном случае – false.
      */
 
-    public static boolean returnBoolean(int a, int b){
+    public static boolean returnBoolean(int a, int b) {
         int sum = a + b;
         return sum >= 10 && sum <= 20;
     }
