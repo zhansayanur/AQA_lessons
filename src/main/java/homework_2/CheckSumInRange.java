@@ -1,4 +1,4 @@
-package home_work_2;
+package homework_2;
 
 public class CheckSumInRange {
     /*1. Написать метод, принимающий на вход два целых числа и проверяющий,
