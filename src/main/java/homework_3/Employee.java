@@ -37,7 +37,7 @@ public class Employee {
         persArray[3] = new Employee("Alex Turner", "QA", "arcticmonkeys@gmail.com", "822332211", 300000, 38);
         persArray[4] = new Employee("Cate Blanchett", "Software engineer", "carol2015@mailbox.com", "844412345", 500000, 54);
 
-        System.out.println("Информация о сотрудниках старше 40 лет:");
+        System.out.println("Information on employees over the age of 40:");
         for (Employee employee : persArray) {
             if (employee.age > 40) {
                 employee.getInfo();
