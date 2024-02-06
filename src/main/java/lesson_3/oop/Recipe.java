@@ -3,11 +3,34 @@ package lesson_3.oop;
 import java.util.Arrays;
 
 public class Recipe {
+
+    public Recipe(String title, int price, String[] listOfIngredients){
+        System.out.println("I am constructor");
+        this.title = title;
+        this.price = price;
+        this.listOfIngredients = listOfIngredients;
+    }
+
+    public Recipe(String title, int price, boolean isVegan, double timeToCook, String[] listOfIngredients) {
+        this.title = title;
+        this.price = price;
+        this.isVegan = isVegan;
+        this.timeToCook = timeToCook;
+        this.listOfIngredients = listOfIngredients;
+    }
+
+    public Recipe(String title, int price, boolean isVegan, String[] listOfIngredients){
+        this(title, price, listOfIngredients);
+        this.isVegan = isVegan;
+        this.timeToCook = 0.3;
+    }
+
+    public Recipe(){}
+
     public String title;
     public int price;
     public boolean isVegan;
     public double timeToCook;
-
     public String[] listOfIngredients;
 
     public void getInfo(){

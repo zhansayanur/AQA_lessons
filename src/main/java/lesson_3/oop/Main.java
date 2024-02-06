@@ -7,6 +7,16 @@ public class Main {
         System.out.println(saltedWater.timeToCook);
         saltedWater.title = "Water with salt";
         saltedWater.price = 10;
+        saltedWater.listOfIngredients = new String[]{"Salt", "Water"};
         saltedWater.getInfo();
+
+        //Две переменные saltedWater, saltedWater2 ссылаются на один объект
+        Recipe saltedWater2 = saltedWater;
+        saltedWater2.price = 12;
+
+        System.out.println("==================");
+        saltedWater.getInfo();
+        System.out.println("==================");
+        saltedWater2.getInfo();
     }
 }
