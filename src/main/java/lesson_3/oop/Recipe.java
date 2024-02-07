@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Recipe {
 
     public Recipe(String title, int price, String[] listOfIngredients){
-        System.out.println("I am constructor");
+        System.out.println("I am constructor from line 8");
         this.title = title;
         this.price = price;
         this.listOfIngredients = listOfIngredients;
