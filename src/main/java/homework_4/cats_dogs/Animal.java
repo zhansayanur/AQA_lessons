@@ -1,4 +1,4 @@
-package homework_4;
+package homework_4.cats_dogs;
 
 public class Animal {
     protected String name;
