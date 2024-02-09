@@ -18,12 +18,12 @@ public class MainForAnimal {
 
         for (Cat cat : cats) {
             cat.eat(10);
-            cat.run(150); // Пример вызова метода run для кота
+            cat.run(cat.runLimit);
         }
 
         for (Dog dog : dogs) {
-            dog.run(300); // Пример вызова метода run для собаки
-            dog.swim(5); // Пример вызова метода swim для собаки
+            dog.run(dog.runLimit);
+            dog.swim(dog.swimLimit);
         }
 
         plate.info();
