@@ -58,12 +58,12 @@ public class AppData {
 
             System.out.println("Содержимое файла " + filePath + ":");
             for (String column : header) {
-                System.out.print(column + ";");
+                System.out.print(column + "; ");
             }
             System.out.println();
             for (int[] row : data) {
                 for (int value : row) {
-                    System.out.print(value + ";");
+                    System.out.print(value + "; ");
                 }
                 System.out.println();
             }
